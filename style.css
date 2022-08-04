@@ -154,6 +154,11 @@ p {
     
 }
 
+.logo {
+    margin: 5vh;
+}
+
+
 @media (max-width: 800px) {
 
     h1 {
@@ -185,6 +190,11 @@ p {
 
     h3, h4 {
         font-size: 2.5vh;
+    }
+
+    .logo {
+        width: 30vw;
+        height: 30vw;
     }
 
 }
