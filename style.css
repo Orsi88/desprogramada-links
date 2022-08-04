@@ -155,7 +155,14 @@ p {
 }
 
 .logo {
+    margin: 0;
+    opacity: 0%;
+    transition: 700ms;
+}
+
+.logo:hover {
     margin: 5vh;
+    opacity: 100%;
 }
 
 
@@ -193,8 +200,8 @@ p {
     }
 
     .logo {
-        width: 30vw;
-        height: 30vw;
+        width: 20vh;
+        height: 20vh;
     }
 
 }
