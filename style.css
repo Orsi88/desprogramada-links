@@ -148,6 +148,12 @@ p {
 
 }
 
+.link-parceria {
+    color: rgb(23, 167, 167);
+    font-size: 2vh;
+    
+}
+
 @media (max-width: 800px) {
 
     h1 {
