@@ -156,7 +156,7 @@ p {
 
 .logo {
     margin: 0;
-    opacity: 0%;
+    opacity: 10%;
     transition: 700ms;
 }
 
