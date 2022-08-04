@@ -143,7 +143,7 @@ p {
     font-family: 'DotGothic16', sans-serif;
     font-size: 2.5vh;
     letter-spacing: 1vw;
-    text-shadow: 0.2vh 0.2vh 0.4vh black;
+    text-shadow: 0.2vh 0.2vh 0.4vh rgba(0, 0, 0, 0.767);
     margin: 3vh;
 
 }
