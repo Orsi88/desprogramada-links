@@ -68,6 +68,90 @@ footer {
     margin: 5vh;
 }
 
+h2 {
+    font-family: 'DotGothic16', sans-serif;
+    color: #00E1FF;   
+    font-size: 5vh;
+    letter-spacing: 1.5vw;
+    margin: 5vw;
+    text-shadow: 1vh 1vh 1vh black;
+    transition: 1000ms;
+}
+
+.aviso {
+    width: 80%;
+    margin: auto;
+    padding: 3vh;
+    background-color: #F9F8EE;
+    box-shadow: 1vh 1vh 1vh black;
+
+}
+
+h4 {
+    margin: 2vw;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 0.5vw;
+    color: #124a94;
+    transition: 500ms;    
+}
+
+h5 {
+    margin: 1vw;
+    font-family: 'Aldrich', sans-serif;
+    text-align: justify;
+    font-size: 2vh;
+    color: #000000;
+    transition: 500ms; 
+}
+
+.diretor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+h3 {
+    margin: 1vw;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 0.5vw;
+    color: #6191d1;
+    transition: 500ms;
+}
+
+.foto {
+    width: 20vw;
+    height: 20vw;
+    margin: 3vw 0 1vw 0;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.foto-diretor {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2vh;
+    letter-spacing: 1vw;
+    text-shadow: 0.2vh 0.2vh 0.4vh black;
+    margin: 3vh;
+
+}
+
+.contato {
+
+}
+
 @media (max-width: 800px) {
 
     h1 {
@@ -86,4 +170,22 @@ footer {
         width: 30vw;
     }
 
+    .foto {
+        width: 60vw;
+        height: 60vw;
+        margin: 5vh 0 1vh 0;
+    }
+
+    .foto-diretor {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    h3, h4 {
+        font-size: 2.5vh;
+    }
+
 }
+
+
+
